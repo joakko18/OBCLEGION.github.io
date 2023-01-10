@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(220, 213, 213);
+}
+.container{
+background-color: white;
+}
+[class *= 'col']{
+    border: solid black 2px;
+}
+.col{
+    text-align: center;
+}
+
+.col-md-8{
+    background-color: black;
+    text-align: center;
+    
+}
+#marca{
+    color: white;
+    margin: 2px;
+    padding: 2px;
+}
+.col-md-2{
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+}
+#logo{
+    width: 180px;
+    height: 110px;
+    padding: 2px;
+    margin: 2px;
+}
+
+#automotiveimg{
+    width: 160px;
+    height: 150px;
+    margin: 2px;
+    padding: 2px;
+}
+
+#textauto{
+    display: none;
+}
+#textaero{
+    display: none;
+}
+#textmar{
+    display: none;
+}
+#textur{
+    display: none;
+}
+
+#link{
+    border: solid white 2px;
+    color: white;
+    text-decoration: none;
+}
+
+#iframe{
+justify-content: center;
+display: flex;
+flex: auto;
+}
+iframe{
+    
+}
+
+@media screen and (max-width: 780) {
+    iframe{
+        width: 400px;
+    }
+  }
