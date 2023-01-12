@@ -64,8 +64,9 @@ justify-content: center;
 display: flex;
 flex: auto;
 }
-iframe{
-    
+#img{
+    width: auto;
+    height: 110px;
 }
 
 @media screen and (max-width: 780) {
