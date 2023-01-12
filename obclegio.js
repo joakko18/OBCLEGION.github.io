@@ -8,6 +8,7 @@
 //}
 
 //prueba
+alert(this website is still being built)
 var x =  document.getElementById("textaero");
 var a = document.getElementById("textauto")
 var c = document.getElementById("textmar")
